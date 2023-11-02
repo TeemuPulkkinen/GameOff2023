@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8yqbyjcdgwvo"]
+
+[ext_resource type="Texture2D" uid="uid://bb3xt256jwi0u" path="res://worldmap.png" id="1_vrp2q"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Worldmap" type="Sprite2D" parent="."]
+position = Vector2(0, 6)
+texture = ExtResource("1_vrp2q")
+
+[node name="Camera2D" type="Camera2D" parent="."]
