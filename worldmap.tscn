@@ -1,11 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8yqbyjcdgwvo"]
+[gd_scene load_steps=3 format=3 uid="uid://b8yqbyjcdgwvo"]
 
 [ext_resource type="Texture2D" uid="uid://bb3xt256jwi0u" path="res://worldmap.png" id="1_vrp2q"]
+[ext_resource type="Texture2D" uid="uid://dnn83dc4nqlao" path="res://Sprites/Player.png" id="2_xcm4w"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Worldmap" type="Sprite2D" parent="."]
+z_index = -1
 position = Vector2(0, 6)
 texture = ExtResource("1_vrp2q")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(127, 397.5)
+scale = Vector2(0.3, 0.297)
+texture = ExtResource("2_xcm4w")
